@@ -16,3 +16,5 @@ This repository provides the Kubernetes configuration files required to deploy a
  kubectl apply -f deployment.yaml
 
 kubectl get pods -n <your-namespace>
+git blame k8s/deployment.yaml
+git blame k8s/namespace.yaml
